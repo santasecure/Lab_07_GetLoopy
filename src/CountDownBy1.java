@@ -1,6 +1,10 @@
 public class CountDownBy1 {
     public static void main(String[] args) {
-        // Loop from 30 down to 0 by 1
+        // Pseudocode:
+// START
+//   Create a loop from 30 to 0, stepping down by 1
+//   For each number, display it with a space
+// STOP
         for (int i = 30; i >= 0; i--) {
             System.out.print(i + " ");
         }
